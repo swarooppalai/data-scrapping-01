@@ -1,0 +1,51 @@
+# Flipkart Data Scraping
+
+## Overview:
+
+This Python script leverages BeautifulSoup, requests, pandas, and datetime to scrape product details such as name, price, and ratings from a Flipkart product page. The data is stored in a CSV file for analysis and tracking.
+
+## Features:
+
+- **Data Retrieval:** Utilises BeautifulSoup and requests to extract product details (name, price, ratings) from a Flipkart product page.
+- **CSV Export:** Saves the extracted data to a CSV file for easy analysis.
+- **Automated Price Checking:** Includes a function to automatically check and update the price at regular intervals.
+- **Time stamping:** Adds a timestamp to each data entry to track when the information was fetched.
+
+## Usage:
+
+1. Install required libraries: `beautifulsoup4`, `requests`, `pandas`.
+
+   ```bash
+   pip install beautifulsoup4 requests pandas
+
+2. Run the script
+
+	bash
+	python flipkart_data_scraping.py
+3. The data will be save in ‘flipkart_data_scrapping.csv’ for further analysis.
+
+##File structure:
+
+1. ‘flipkart_data_scrapping.py’ : The main Python script 
+2. ‘flipkart_data_scrapping.csv’ : CSV file where the scraped data is stored.
+
+##License:
+
+This project is licensed under BSD License.
+
+##Acknowledgements:
+
+This project is inspired by ALEX_THE_ANALYST YouTube channel and my personal motivation to get hands on experience with data analysis tools and techniques.
+
+
+In this README:
+
+- The "Overview" section briefly describes what the code does.
+- The "Features" section lists key functionalities.
+- The "Usage" section provides instructions on how to use the code.
+- The "File Structure" section outlines the purpose of each file.
+- The "License" section specifies the project's license.
+- The "Acknowledgments" section expresses any acknowledgments or inspirations.
+
+
+ 

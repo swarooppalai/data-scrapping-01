@@ -1,0 +1,5 @@
+TL;DR  
+
+This Python script scrapes product details (name, price, ratings) from a Flipkart page, utilising BeautifulSoup, requests, pandas, and datetime. The extracted data is stored in a CSV file for analysis. The script includes automated price checking at regular intervals and timestamps each entry. To use, install required libraries, run the script, and find the data in 'flipkart_data_scrapping.csv'. Contributions and enhancements are welcome. The project is under the BSD License.  
+
+
